@@ -1,0 +1,19 @@
+{
+  "name": "familiars-cron",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "build": "bun build ./src --outdir ./dist --target bun"
+  },
+  "dependencies": {
+    "croner": "^9.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "hono": "^4.6.10",
+    "openai": "^4.72.0",
+    "viem": "^2.21.47"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
